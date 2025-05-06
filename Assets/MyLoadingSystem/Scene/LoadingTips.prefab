@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6206105891423114065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8530401923845512409}
+  - component: {fileID: 6687602024180634376}
+  m_Layer: 0
+  m_Name: LoadingTips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8530401923845512409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206105891423114065}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4874492, y: -1.6731026, z: 6.786698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6687602024180634376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206105891423114065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d619f11d425b9846b93f3db11595092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tips:
+  - category: "\u30D5\u30EC\u30F3\u30C9"
+    tip: "\u30AE\u30D5\u30C8\u3092\u9001\u3063\u3066\u6709\u52B9\u5EA6\u3092\u4E0A\u3052\u3088\u3046\uFF01"
+    tipImage: {fileID: 0}
+  - category: "\u8B0E\u306E\u6D1E\u7A9F"
+    tip: "\u5F37\u8005\u306E\u307F\u53D7\u3051\u3089\u308C\u308B\u8A66\u7DF4\u304C\u3042\u308B\u3089\u3057\u3044\u3002"
+    tipImage: {fileID: 0}
+  - category: "\u53E4\u4EE3\u907A\u8DE1"
+    tip: "\u305D\u306E\u8B0E\u3092\u89E3\u3044\u305F\u8005\u306F\u672A\u3060\u3044\u306A\u3044\u2026"
+    tipImage: {fileID: 0}
+  - category: "\u3007\u3007\u57CE"
+    tip: "\u9580\u306F\u591C\u306B\u306F\u9589\u307E\u3063\u3066\u3057\u307E\u3046\u3002\u5E7C\u5150\u306F\u663C\u306E\u9593\u306B\u6E08\u307E\u305B\u3088\u3046\u3002"
+    tipImage: {fileID: 0}
+  - category: "\u6599\u7406"
+    tip: "\u65C5\u306E\u9014\u4E2D\u3067\u65B0\u305F\u306A\u98DF\u6750\u3068\u51FA\u4F1A\u3048\u308B\u304B\u3082\u3002"
+    tipImage: {fileID: 0}
+  - category: "\u6599\u7406"
+    tip: "\u4F55\u5EA6\u3082\u4F5C\u308C\u3070\u304D\u3063\u3068\u3044\u3064\u304B\u306F\u4E0A\u624B\u304F\u306A\u308C\u308B\u2026"
+    tipImage: {fileID: 0}
+  - category: "\u3007\u3007\u5CF6"
+    tip: "\u5CA9\u7901\u306B\u56F2\u307E\u308C\u3066\u3044\u308B\u7121\u4EBA\u5CF6\u3002\u3069\u3046\u3084\u3063\u3066\u4E0A\u9678\u3059\u308C\u3070\u3044\u3044\u306E\u3060\u308D\u3046\u304B\u3002"
+    tipImage: {fileID: 0}
+  timeBetweenSwitch: 5
+  categoryText: {fileID: 0}
+  tipText: {fileID: 0}
+  tipImage: {fileID: 0}
+  isTipSwitchingEnabled: 1

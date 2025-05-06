@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6216125352649570560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 156940990662548977}
+  - component: {fileID: 3024632838520158604}
+  m_Layer: 0
+  m_Name: ProgressManager3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &156940990662548977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6216125352649570560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2701977, y: -1.2230375, z: -2.2741675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3024632838520158604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6216125352649570560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a8daa4f35591a4ca12bbf04889f76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useProgressBar: 0
+  progressBar: {fileID: 0}
+  useCircularGauge: 0
+  circularGauge: {fileID: 0}
+  useMultipleImageProgress: 1
+  progressImages:
+  - {fileID: 996347336146083327, guid: a1ff2ccbb6269094990895bcbb204b22, type: 3}
+  - {fileID: 8507101460718614803, guid: bb0e015693f99f94cbc1b5adfa4f47cc, type: 3}
+  - {fileID: 1741088259965865979, guid: b2c8b48099202cc46a25e61a9be53bba, type: 3}
+  - {fileID: 5573528013711549930, guid: 58bef2fac99fc724f9a630388b25c283, type: 3}
+  - {fileID: 5726568277588742974, guid: a0b5226e8420d7748b2039d9e925771a, type: 3}
+  - {fileID: 5906683609161103417, guid: eb3d119174931fa4883748942a2381e9, type: 3}
+  - {fileID: 5880069844016002448, guid: 42b412919cef13241867c63bcf25ef32, type: 3}
+  usePercentage: 1
+  legacyText: {fileID: 0}
+  tmpText: {fileID: 0}

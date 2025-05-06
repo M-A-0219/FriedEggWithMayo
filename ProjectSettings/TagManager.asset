@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Egg
+  - FryingPan
+  - RiceCooker
+  - Table
+  - MayonnaiseMachine
+  - NPC
+  - Boundary
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Chicken
+  - 
+  - Player
+  - interactableLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1518825335
+    locked: 0
+  - name: CharacterBack
+    uniqueID: 2763388105
+    locked: 0
+  - name: NPC
+    uniqueID: 2307590361
+    locked: 0
+  - name: Player
+    uniqueID: 3575134195
+    locked: 0
+  - name: CharacterFront
+    uniqueID: 138472827
+    locked: 0
+  - name: front
+    uniqueID: 4070045081
+    locked: 0
