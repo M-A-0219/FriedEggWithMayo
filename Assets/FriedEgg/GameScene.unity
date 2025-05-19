@@ -927,7 +927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6571e48974b46f44fb2998728778efbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pixelsPerUnit: 16
 --- !u!1 &115415070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,7 +1490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10da266d93cbb504cb198c25154f9200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundValue: 0
+  boundValue: 1.7
 --- !u!198 &173901238 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1188092590982773157, guid: 93f7fe78ab9846145aa5b4444b101f97, type: 3}
@@ -44280,7 +44279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6571e48974b46f44fb2998728778efbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pixelsPerUnit: 16
 --- !u!1 &545661853
 GameObject:
   m_ObjectHideFlags: 0
@@ -44596,7 +44594,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6571e48974b46f44fb2998728778efbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pixelsPerUnit: 16
 --- !u!1 &581973195
 GameObject:
   m_ObjectHideFlags: 0
@@ -45430,7 +45427,6 @@ GameObject:
   - component: {fileID: 668320309}
   - component: {fileID: 668320310}
   - component: {fileID: 668320311}
-  - component: {fileID: 668320312}
   m_Layer: 0
   m_Name: house2
   m_TagString: Untagged
@@ -45564,19 +45560,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12, y: 21.819052}
   m_EdgeRadius: 0
---- !u!114 &668320312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668320307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6571e48974b46f44fb2998728778efbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pixelsPerUnit: 16
 --- !u!1 &706625561
 GameObject:
   m_ObjectHideFlags: 0
@@ -47452,7 +47435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10da266d93cbb504cb198c25154f9200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundValue: 0
+  boundValue: 1.7
 --- !u!1 &944157193
 GameObject:
   m_ObjectHideFlags: 0
@@ -47664,7 +47647,6 @@ GameObject:
   - component: {fileID: 1032701041}
   - component: {fileID: 1032701040}
   - component: {fileID: 1032701042}
-  - component: {fileID: 1032701043}
   m_Layer: 0
   m_Name: house1
   m_TagString: Untagged
@@ -47752,19 +47734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boundValue: 0
---- !u!114 &1032701043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032701039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6571e48974b46f44fb2998728778efbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pixelsPerUnit: 16
 --- !u!1 &1068953622
 GameObject:
   m_ObjectHideFlags: 0
@@ -47935,7 +47904,7 @@ Transform:
   m_GameObject: {fileID: 1157614193}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.4613, y: -4.06, z: 0}
+  m_LocalPosition: {x: 0.4612, y: -4.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49709,8 +49678,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: :10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2cf3a5697dd2eb84ba5bc61962752374, type: 2}
-  m_sharedMaterial: {fileID: 3242640034013084514, guid: 2cf3a5697dd2eb84ba5bc61962752374, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
+  m_sharedMaterial: {fileID: 929258960225325408, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50082,7 +50051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10da266d93cbb504cb198c25154f9200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundValue: 0
+  boundValue: 1.7
 --- !u!1 &1566329236
 GameObject:
   m_ObjectHideFlags: 0
@@ -50142,8 +50111,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: etc...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac3d7e22bbfe56345b1f74164aff1c13, type: 2}
-  m_sharedMaterial: {fileID: 2886393377231994063, guid: ac3d7e22bbfe56345b1f74164aff1c13, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
+  m_sharedMaterial: {fileID: 929258960225325408, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50286,8 +50255,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: or
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac3d7e22bbfe56345b1f74164aff1c13, type: 2}
-  m_sharedMaterial: {fileID: 2886393377231994063, guid: ac3d7e22bbfe56345b1f74164aff1c13, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
+  m_sharedMaterial: {fileID: 929258960225325408, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50412,6 +50381,10 @@ PrefabInstance:
     - target: {fileID: 2748293922721162372, guid: 5f5f05929f4b14247b6c881d5994e5b6, type: 3}
       propertyPath: m_Name
       value: flyingpanP (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2748293922721162372, guid: 5f5f05929f4b14247b6c881d5994e5b6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -51313,8 +51286,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lv.50
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2cf3a5697dd2eb84ba5bc61962752374, type: 2}
-  m_sharedMaterial: {fileID: 3242640034013084514, guid: 2cf3a5697dd2eb84ba5bc61962752374, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
+  m_sharedMaterial: {fileID: 929258960225325408, guid: 696d611545b2b8941aabb214d62f0260, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -62545,6 +62518,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 396320453}
     m_Modifications:
+    - target: {fileID: 1590601268886946541, guid: 6fdef4cfe1d84e645992d8ca674b46c6, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590601268886946541, guid: 6fdef4cfe1d84e645992d8ca674b46c6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 138472827
+      objectReference: {fileID: 0}
     - target: {fileID: 3635044872115408007, guid: 6fdef4cfe1d84e645992d8ca674b46c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.66

@@ -103,9 +103,10 @@ public class Chicken : MonoBehaviour
             randomX = Random.Range(-1f, 1f);
             randomY = Random.Range(-1f, 1f);
             moveDirection = new Vector2(randomX, randomY).normalized;
-        } while (Mathf.Abs(randomX) < 0.1f && Mathf.Abs(randomY) < 0.1f); // ¬‚³‚·‚¬‚é’l‚ð–h‚®
+        } while (Mathf.Abs(randomX) < 0.1f && Mathf.Abs(randomY) < 0.1f);
 
-        moveDirection = new Vector2(randomX, randomY).normalized; // ³‹K‰»‚µ‚Äˆê’è‚Ì•ûŒüƒxƒNƒgƒ‹‚ðì¬
+        // ³‹K‰»‚µ‚Äˆê’è‚Ì•ûŒüƒxƒNƒgƒ‹‚ðì¬
+        moveDirection = new Vector2(randomX, randomY).normalized;
 
         // •Ç‚ÉŒü‚©‚Á‚Ä‚¢‚­ê‡‚Í•ûŒü‚ð”½“]
         Vector2 newPosition = rb.position + moveDirection * moveSpeed * Time.deltaTime;
@@ -214,7 +215,7 @@ public class Chicken : MonoBehaviour
         if (collision.gameObject.CompareTag("Wall"))
         {
             isTouchingWall = false; // •Ç‚©‚ç—£‚ê‚½‚çƒtƒ‰ƒO‚ð‰º‚°‚é
-            lastBlockedDirection = moveDirection; // ‚±‚Ì•ûŒü‚Íƒ_ƒ‚¾‚Á‚½
+            lastBlockedDirection = moveDirection; // ‚±‚Ì•ûŒü‚Í~
             StopMoving();
         }
     }

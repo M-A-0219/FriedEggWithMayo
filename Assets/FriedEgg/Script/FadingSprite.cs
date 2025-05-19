@@ -5,7 +5,7 @@ public class FadingSprite : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
 
-    [Range(0f, 1f)] public float fadeToAlpha = 0.5f;
+    [Range(0f, 1f)] public float fadeToAlpha = 0.0f;
     public float fadeSpeed = 2f; 
 
     private float targetAlpha = 1f;

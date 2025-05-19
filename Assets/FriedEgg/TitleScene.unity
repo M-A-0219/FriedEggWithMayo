@@ -181,8 +181,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u521D\u3081\u304B\u3089"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3b33af4f31496954eb25f6db4e4c6647, type: 2}
-  m_sharedMaterial: {fileID: 3242640034013084514, guid: 3b33af4f31496954eb25f6db4e4c6647, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ec563b4f2985954488bb3c7cef53ce44, type: 2}
+  m_sharedMaterial: {fileID: -9161863757114205900, guid: ec563b4f2985954488bb3c7cef53ce44, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

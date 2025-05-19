@@ -99,7 +99,8 @@ public class NPCManager : MonoBehaviour
         if (npcQueue.Contains(npc))
         {
             npcQueue.Remove(npc);
-            UpdateNPCQueue();
         }
+
+        UpdateNPCQueue();
     }
 }

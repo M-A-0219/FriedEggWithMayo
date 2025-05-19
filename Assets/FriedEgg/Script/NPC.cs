@@ -11,7 +11,7 @@ public class NPC : MonoBehaviour
     private Animator animator;
 
     private Vector2 spawnPosition = new Vector2(-3, 18);
-    private Vector2 exitPosition1 = new Vector2(-4, 9.625f);
+    private Vector2 exitPosition1 = new Vector2(-4, 11.625f);
     private Vector2 exitPosition2 = new Vector2(-4, 18);
 
     private bool isWaiting = false;
@@ -97,21 +97,16 @@ public class NPC : MonoBehaviour
     {
         if (isWaiting && !isExiting)
         {
-            isExiting = true;
+            isExiting = true;     // ★ ここでフラグ立て
             isWaiting = false;
             coinManager.AddCoins(coinReward);
             levelManager.AddExperience(experienceReward);
 
-            // 退場開始時に列を詰める
-            npcManager.UpdateNPCQueue();
-
-            StartCoroutine(StartExitSequence());
-        }
-        else
-        {
-            Debug.Log("NPCはどんぶりを購入できる状態ではありません！");
+            StartCoroutine(StartExitSequence()); // ★ UpdateQueueはここで呼ばない
         }
     }
+
+
 
     private IEnumerator StartExitSequence()
     {
@@ -128,12 +123,8 @@ public class NPC : MonoBehaviour
         // 退場位置2（上方向）への移動
         yield return MoveToPosition(exitPosition2, () =>
         {
-            Debug.Log("NPCが退場位置2に到達しました。NPCを削除します。");
-
-            // NPCManagerに退場完了を通知
-            npcManager.OnNPCFinished(this);
-
-            Destroy(gameObject); // NPCを削除
+            npcManager.OnNPCFinished(this); 
+            Destroy(gameObject);
         });
 
         moveSpeed = originalSpeed;
